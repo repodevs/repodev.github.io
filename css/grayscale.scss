@@ -419,3 +419,32 @@ body {
 .fourofour {
   border: 1px solid $dark !important;
 }
+
+/* CUSTOM  css */
+h2 {
+    color: $green;
+}
+
+.row {
+    p {
+        color: $lightdark;
+
+        a {
+            color: $a;
+        }
+
+        a:hover {
+            color: $light;
+        }
+    }
+}
+
+.navbar-brand {
+    img {
+        color: $green;
+    }
+}
+
+.date-post {
+    color: $greendark;
+}
